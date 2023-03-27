@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Faustine Fan"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - Portfolio.qmd
+      - href: Resume.pdf
+        text: CV
+      
+
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+    toc: true
+   
+
